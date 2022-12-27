@@ -1,0 +1,451 @@
+01-exercicio1
+package com.mycompany.exercicio1;
+
+import java.util.Scanner;
+
+public class Exercicio1 {
+
+    public static void main(String[] args) {
+        
+        int a, b, c;
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Escreva o valor de A"); 
+        a = sc.nextInt();
+        System.out.println("Escreva o valor de B");
+        b = sc.nextInt();
+        c = a + b;
+        
+        System.out.println("Resultado da soma a + b é:" + c);
+        
+--------------------------------------------------------------
+02-exercicio2
+package com.mycompany.exercicio2;
+
+import java.util.Scanner;
+
+public class Exercicio2 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a, b;
+                       
+        System.out.println("Determine o valor de A.");        
+        a = sc.nextInt();
+        System.out.println("Determine o valor de B.");
+        b = sc.nextInt();    
+        
+        System.out.println("A soma de seus números dá: " + (a + b));            
+        System.out.println("A subtração de seus números dá: " + (a - b));
+        System.out.println("A divisão de seus números dá: " + a / b );       
+        System.out.println("A multiplicação de seus números dá: " + a * b);        
+    }
+}
+
+--------------------------------------------------------------
+03-exercicio3
+package com.mycompany.exercicio3;
+
+import java.util.Scanner;
+
+public class Exercicio3 {
+
+    public static void main(String[] args) {
+        
+        System.out.println("Vamos calcular o consumo de seu automóvel! :D");
+        
+        Scanner sc = new Scanner(System.in);
+        float distancia, combustivel, media;
+        
+        System.out.println("Determine a distância.");
+        distancia = sc.nextInt();
+        System.out.println("Determine o combustível gasto.");
+        combustivel = sc.nextInt();
+        
+        media = distancia + combustivel / 2;
+        
+        System.out.println("Seu consumo foi de:" + media);
+        
+        
+    }
+}
+
+--------------------------------------------------------------
+04-exercicio4
+package com.mycompany.exercicio4;
+
+import java.util.Scanner;
+
+public class Exercicio4 {
+
+    public static void main(String[] args) {
+                      
+        System.out.println("Calculando total $alário");
+        String nome;
+        double salario, vendas, total;
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Informe seu nome, por favor.");
+        nome = sc.nextLine();               
+        System.out.println(nome +" qual é seu salário fixo?");
+        salario = sc.nextDouble();       
+        System.out.println(nome +" quanto você vendeu?");
+        vendas = sc.nextDouble();                
+        
+        total = salario + (vendas * 0.15);       
+      System.out.println(nome +",total a receber junto com 15% das vendas é: ");
+      System.out.println(total);
+                          
+    }
+}
+
+--------------------------------------------------------------
+05-exercicio5
+package com.mycompany.exercicio5;
+
+import java.util.Scanner;
+
+public class Exercicio5 {
+
+    public static void main(String[] args) {
+       
+        Scanner sc = new Scanner(System.in);
+   System.out.println("Vamos calcular sua média!");
+        
+   System.out.println("Qual seu nome?");
+        String nome = sc.nextLine();
+   System.out.println("Aluno(a)" + nome + " qual foi sua nota do 1ºTrimestre?");
+        float a = sc.nextFloat();
+   System.out.println("Qual foi sua nota do 2ºTrimestre?");  
+        float b = sc.nextFloat(); 
+   System.out.println("E do 3º trimestre?");  
+        float c = sc.nextFloat();
+        
+        float media = (a + b + c) / 3;
+        
+   System.out.println("Aluno(a)" + nome + "! Sua média é:" + media);
+    }
+}
+
+--------------------------------------------------------------
+06-exercicio6
+package com.mycompany.exercicio6;
+
+import java.util.Scanner;
+
+public class Exercicio6 {
+
+    public static void main(String[] args) {
+      
+        Scanner sc = new Scanner (System.in);
+        
+        System.out.println("Escreva o valor de A.");
+        int a = sc.nextInt();        
+        System.out.println("Escreva o valor de B.");
+        int b = sc.nextInt();
+        int copo3 = a;
+        
+        System.out.println("Valor de a: " + a + ". Valor de b: " + b);
+        System.out.println("Aqui estão os valores trocados: A = " + b + " B = " 
+                + a );
+        
+        
+    }
+}
+
+--------------------------------------------------------------
+07-exercicio7
+package com.mycompany.exercicio7;
+
+import java.util.Scanner;
+
+public class Exercicio7 {
+
+    public static void main(String[] args) {
+     
+        Scanner sc = new Scanner (System.in);  
+        
+        double f,c;
+        
+        System.out.println("Defina a temperatura F.");
+        f = sc.nextDouble();
+        System.out.println("Defina a temperatura c.");
+        c = sc.nextDouble();
+        
+        f = (9*c+160)/5;
+        
+        System.out.println("O resultado da conversão é: " +f);
+                
+    }
+}
+
+--------------------------------------------------------------
+08-exercicio8
+package com.mycompany.exercicio8;
+
+import java.util.Scanner;
+
+public class Exercicio8 {
+
+    public static void main(String[] args) {
+       
+         Scanner sc = new Scanner (System.in);
+         
+         float real, dolar;
+         
+         System.out.println("Quanto de grana vc tem?");
+         real = sc.nextFloat();
+         dolar = real * 5;
+         
+         System.out.println("Assim é sua grana em money:" + dolar);         
+         
+         
+         
+    }
+}
+
+--------------------------------------------------------------
+09-exercicio9
+package com.mycompany.exercicio9;
+
+import java.util.Scanner;
+
+public class Exercicio9 {
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner (System.in);
+        
+        float valorDepositado,rendimento;
+        double juros = 0.07;
+                
+        System.out.println("Digite um valor a depositar.");
+        valorDepositado = sc.nextFloat();
+        
+        rendimento = (float) (valorDepositado + juros);        
+        
+        System.out.println("Sabendo que o juros fixo é de 0.07%, então seu valor"
+                + "é: " + rendimento);
+        
+    }
+}
+
+--------------------------------------------------------------
+10-exercicio10
+package com.mycompany.exercicio10;
+
+import java.util.Scanner;
+
+public class Exercicio10 {
+
+    public static void main(String[] args) {
+       
+        Scanner sc = new Scanner (System.in);
+        
+        float valorCompra, prestacoes;
+        System.out.println("Quanto foi a compra?");
+            valorCompra = sc.nextFloat();
+        
+        
+        for(int i = 1; i <= 5; i++){
+          prestacoes = valorCompra / i;
+          
+          System.out.println("Suas prestações em " +i+ "x: " + prestacoes);
+        }
+        
+    }
+}
+
+--------------------------------------------------------------
+11-exercicio11
+package com.mycompany.exercicio11;
+
+import java.util.Scanner;
+
+public class Exercicio11 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        double precoCusto, valorVenda, percentual;
+        
+        System.out.println("Qual foi o preço de custo do produto?");
+        precoCusto = sc.nextDouble();
+        System.out.println("Acrescente um percentual ao valor.");
+        percentual = sc.nextDouble();
+        
+        valorVenda = precoCusto + percentual;
+        
+        System.out.println("Aqui está seu valor de venda: " + valorVenda);
+        
+    }
+}
+--------------------------------------------------------------
+12-exercicio12
+package com.mycompany.exercicio12;
+
+import java.util.Scanner;
+
+public class App {
+
+    public static void main(String[] args) {
+       
+        Scanner sc = new Scanner(System.in);
+        
+        double custoFabrica, custofabrica = 0, percentualImposto, total, imposto;
+        
+        System.out.println("Informe o custo de fábrica.");
+        custoFabrica = sc.nextDouble();
+        
+        imposto = custofabrica * 0.45;
+        percentualImposto = imposto * 0.28;
+        total = custofabrica + percentualImposto;
+        
+        System.out.println("Resultado :D : " + total);
+--------------------------------------------------------------
+13-exercicio13
+package com.mycompany.exercicio13;
+
+import java.util.Scanner;
+import java.util.Random;
+
+public class App {
+
+    public static void main(String[] args) {
+        
+        int numeroAleatorio;
+        Scanner sc = new Scanner(System.in);
+        
+        Random rd = new Random();
+        numeroAleatorio = rd.nextInt(11);
+        
+       
+        if(numeroAleatorio > 10){            
+            System.out.println("É igual a dez :D ");           
+        }else{
+            System.out.println("Não é igual a dez ");           
+        
+        }
+        
+    }
+}
+--------------------------------------------------------------
+14-exercicio14
+package com.mycompany.exercicio14;
+
+import java.util.Scanner;
+
+public class App {
+
+    public static void main(String[] args) {
+       
+        Scanner sc = new Scanner(System.in);
+        
+        int num1, num2;
+        
+        System.out.println("Informe o valor do 1º número.");        
+        num1 = sc.nextInt();
+        System.out.println("Informe o valor do 2º número.");
+        num2 = sc.nextInt();
+        
+                
+        if(num1 > num2){
+        System.out.println("1º número é maior que o 2º" );        
+        }else{
+        System.out.println("2º número é maior que o 1º" );    
+        }
+    }
+}
+
+--------------------------------------------------------------
+15-exercicio15
+package com.mycompany.exercicio15;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class App {
+
+    public static void main(String[] args) {
+            
+        Scanner leitorScanner = new Scanner(System.in);      
+        Random rd = new Random();
+        int numeroAleatorio = rd.nextInt(10);
+        
+        System.out.println("Digite um valor.");
+        int numero = leitorScanner.nextInt ();
+        
+        
+        while(numero != numeroAleatorio){
+           numero = leitorScanner.nextInt ();
+        if(numero >= 0 && numero <= 10) {
+        System.out.println("O número está no intervalo");        
+        }else {
+        System.out.println("O número não está no intervalo");
+        }
+        if (numero > numeroAleatorio){
+        System.out.println("Mais baixo :3");        
+        }else {
+        System.out.println("Mais alto.");
+
+        }
+      }  
+        
+    }
+}
+--------------------------------------------------------------
+22-exercicio22
+package exercicio22;
+
+import java.util.Scanner;
+
+public class App {
+
+    public static void main(String[] args) {
+        
+        String nomeProduto; 
+        float precoCusto;
+        float precoVenda;
+       
+        float totalCusto = 0.0f;
+        float totalVenda = 0.0f;       
+        
+        Scanner leitor = new Scanner(System.in);
+       
+        for (int i = 0; i < 3; i++) {
+            
+            System.out.println("Digite o nome do produto.");
+            nomeProduto = leitor.nextLine();
+            
+            System.out.println("Digite o preço de custo do produto."); 
+            precoCusto = leitor.nextFloat();
+            
+            System.out.println("Digite o preço de venda do produto."); 
+            precoVenda = leitor.nextFloat();
+            
+            totalCusto = totalCusto + precoCusto;
+            totalVenda = totalVenda + precoVenda;        
+            
+            if(precoCusto == precoVenda){
+              System.out.println("de venda."
+              + "Houve um empate entre o preço de custo e o preço de venda");
+            }else {
+              if(precoCusto > precoVenda){
+                System.out.println("Aqui houve prejuízo.");   
+              }else {
+                System.out.println("Lucro :D");                
+              }
+            }
+            System.out.println(nomeProduto + ", preço de custo = " + precoCusto 
+                    + ", preço de venda = " + precoVenda);
+        
+            System.out.println("A média do preço de custo é de: "+ (totalCusto) / i);
+            System.out.println("A média do preço de venda é de: "+ (totalVenda) / i);
+        }
+               
+    }
+}
+
+--------------------------------------------------------------
+
+
