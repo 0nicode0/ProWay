@@ -9,9 +9,12 @@ public class App {
         Scanner sc = new Scanner(System.in);
         
         String nome;
-        int totalR, genero, saude, idade, apto, naoApto, totalA = 0;
-        
-        for(int i = 0; i <= 4; i++){
+        int totalR, genero, saude, idade;
+        int  apto = 1;
+        int naoApto = 2;
+        int totalA = 0;
+
+        for(int i = 0; i <= 2; i++){
             
             System.out.println("Vamos lá! :D");
             System.out.println("Diga, qual seu nome?");
@@ -24,18 +27,17 @@ public class App {
             saude = sc.nextInt(); 
             System.out.println("Agora "+nome+ ", diga, você tem 18 anos ou mais?"
             + "Digite 1 para sim ou 2 para não.");
-            idade = sc.nextInt();
-            sc.nextLine();
-            
+            idade = sc.nextInt();         
+
             totalR = genero + idade + saude;
-            apto = 1;
-            naoApto = 2;
+
             if(totalR == apto){
                 System.out.println("Você pode ser soldado!");
                 totalA += 1;
             }else if(totalR == naoApto){
                 System.out.println("Não pode ser soldado!");                               
             }
+
         }    
                 System.out.println("Total de aprovados: " + totalA);          
     }
