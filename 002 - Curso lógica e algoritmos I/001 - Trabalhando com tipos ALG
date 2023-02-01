@@ -1,0 +1,18 @@
+Algoritmo "Trabalhando com tipos"
+
+Var
+ palavra1, palavra2, palavra3: caractere
+ numero1, numero2, numero3: inteiro
+Inicio
+ escreval("palavra1")
+ leia(Palavra1)
+ escreval("palavra2")
+ leia(Palavra2)
+ escreval("numero1")
+ leia(numero1)
+ escreval("numero2")
+ leia(numero2)
+ palavra3 <- palavra1 + palavra2
+ numero3 <- numero1 + numero2
+ escreval(palavra3)
+Fimalgoritmo
