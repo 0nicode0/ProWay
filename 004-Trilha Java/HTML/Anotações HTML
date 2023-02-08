@@ -1,0 +1,50 @@
+Anotações gerais HTML
+
+------------------------------------------------------------------------
+** Módulo 1**
+
+HTTP é um protocolo de transferência de hipertexto.
+
+O erro retornado quando uma requisição HTTP não pode ser respondida pelo lado do usuário é 404.
+
+DNS é um sistema que transforma nomes de domínio em endereços de IP. A DNS é fundamental para a usabilidade da Internet, pois permite que os usuários se lembrem facilmente dos nomes dos sites em vez de seus endereços IP complexos.
+
+SSL/TLS é um protocolo de segurança utilizado para criptografar dados transmitidos na Internet. SSL/TLS não impede a descoberta de dados se o servidor for invadido. Embora o protocolo criptografe as informações transmitidas entre o servidor e o cliente, se o servidor for comprometido, os dados armazenados nele podem ser expostos e vulneráveis. Para proteger os dados no servidor, é necessário implementar medidas adicionais, como autenticação forte, autorização rigorosa e backup regulares dos dados. Além disso, é importante manter o software do servidor atualizado com as últimas correções de segurança e monitorar regularmente as atividades do servidor para detectar possíveis invasões ou ameaças.
+
+Um servidor web é um software em um computador conectado à rede que responde a requisições HTTP. 
+
+------------------------------------------------------------------------
+
+** Módulo 2 **
+Servidores...
+O pacote que possibilita o NodeJS a funcionar como servidor web é o Express.
+
+Conteúdo dinâmico é aquele que possibilita mudança de uma requisição para outra.
+
+VPS é um servidor virtual privado.
+
+O servidor que é melhor para a entrega de conteúdo estático e é utilizado muito para cache de outros servidores é o Nginx.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
