@@ -7,8 +7,8 @@ Anotações... Trilha Java :)
 **Testes em uma aplicação**
 
 Alguém da equipe irá desenvolver esse teste.
-Analista de teste-Só faz os testes, não desenvolve a aplicação.
-Teste tradicional-Navegação na aplicação.
+Analista de teste- Só faz os testes, não desenvolve a aplicação.
+Teste tradicional- Navegação na aplicação.
 
 --> Teste unitário:
 Verificar o comportamento das menores unidades em sua aplicação.
