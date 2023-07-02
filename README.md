@@ -1,2 +1,2 @@
-#  :sparkles: Start-By-Capgemini :sparkles:
+#  :sparkles: ProWay Courses :sparkles:
 ### Activities carried out during training courses in programming logic, Java and other...
